@@ -8,7 +8,7 @@ A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
 
-<span style="color:blue"> <em>0e</em> text</span> - move forward.
+0 - move forward.
 
 1 - move backward.
 
