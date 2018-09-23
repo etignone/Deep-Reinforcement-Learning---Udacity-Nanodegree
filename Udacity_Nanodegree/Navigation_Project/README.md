@@ -91,8 +91,10 @@ You need only select the environment that matches your operating system:
 
 Place the environment in the same folder where you put the notebooks and the python files and unzip (or decompress) it
 
+## Instructions
+
 Open a jupyter notebook:
 
     jupyter notebook
     
-Before running code in a notebook, change the kernel to match the navigation environment by using the drop-down Kernel menu on the top left.
+Before running code in the notebook, change the kernel to match the navigation environment by using the drop-down Kernel menu on the top left
