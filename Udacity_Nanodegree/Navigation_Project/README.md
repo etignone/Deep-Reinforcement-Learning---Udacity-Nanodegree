@@ -28,7 +28,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 #### 1. Clone the DRLND Repository. 
 
-Follow the instructions conteained in the repo [DRNLNG-GIthub](https://github.com/udacity/deep-reinforcement-learning#dependencies)     repository to set up your Python environment. These instructions can be found in README.md at the root of the repository. By             following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete       the project:
+Follow the instructions conteained in the repo [DRNLNG-GIthub](https://github.com/udacity/deep-reinforcement-learning#dependencies)     repository to set up your Python environment. These instructions can be found in README.md at the root of the repository. By             following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete       the project. 
 
     - tensorflow==1.7.1
     - Pillow>=4.2.1
@@ -44,6 +44,8 @@ Follow the instructions conteained in the repo [DRNLNG-GIthub](https://github.co
     - pandas
     - scipy
     - ipykernel
+
+Otherwise, once you have cloned this repository, you can just enter the python folder and do a *pip install .*.
 
 *For Windows users*: The ML-Agents toolkit supports Windows 10. While it might be possible to run the ML-Agents toolkit using other
 versions of Windows, it has not been tested on other versions. Furthermore, the ML-Agents toolkit has not been tested on a               Windows VM such as Bootcamp or Parallels.
