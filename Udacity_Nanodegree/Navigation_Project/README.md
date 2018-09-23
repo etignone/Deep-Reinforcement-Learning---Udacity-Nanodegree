@@ -26,9 +26,41 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ## Getting started
 
-#### 1. Clone the DRLND Repository. 
+To set up your python environment to run the code in this repository, follow the instructions below.
 
-Follow the instructions conteained in the repo [DRNLNG-GIthub](https://github.com/udacity/deep-reinforcement-learning#dependencies)     repository to set up your Python environment. These instructions can be found in README.md at the root of the repository. By             following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete       the project. 
+#### 1. Create a virtual environment. 
+
+Create (and activate) a new environment with Python 3.6.
+
+    Linux or Mac:
+    conda create --name navigation python=3.6
+    source activate navigation
+
+Windows:
+
+    conda create --name navigation python=3.6 
+    activate drlnd
+    
+Perform a minimal install of OpenAI gym:
+
+    pip install gym
+
+Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
+Then, install the box2d environment group by following the instructions [here](https://github.com/openai/gym#box2d).
+
+Create an IPython kernel for the drlnd environment.
+
+    python -m ipykernel install --user --name drlnd --display-name "drlnd"
+
+#### 2. Clone this repository. 
+
+Clone the repository, and navigate to the python/ folder. Then, install several dependencies.
+
+    git clone https://github.com/etignone/Reinforcement_Learning.git
+    cd python
+    pip install .
+
+By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project:
 
     - tensorflow==1.7.1
     - Pillow>=4.2.1
@@ -45,8 +77,6 @@ Follow the instructions conteained in the repo [DRNLNG-GIthub](https://github.co
     - scipy
     - ipykernel
 
-Alternatively, once you have cloned this repo, you can just create a new virtual environment, activate it, enter the python folder and execute *"pip install ."*.
-
 *For Windows users*: The ML-Agents toolkit supports Windows 10. While it might be possible to run the ML-Agents toolkit using other
 versions of Windows, it has not been tested on other versions. Furthermore, the ML-Agents toolkit has not been tested on a               Windows VM such as Bootcamp or Parallels.
 
@@ -61,4 +91,8 @@ You need only select the environment that matches your operating system:
 
 Place the environment in the same folder where you put the notebooks and the python files and unzip (or decompress) it
 
-#### 3. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+Open a jupyter notebook:
+
+    jupyter notebook
+    
+Before running code in a notebook, change the kernel to match the navigation environment by using the drop-down Kernel menu on the top left.
