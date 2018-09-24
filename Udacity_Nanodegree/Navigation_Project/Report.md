@@ -24,7 +24,7 @@ The neural network has three fully connected layers. The dimension of the layers
 
 **2. Learning phase** 
 
-    breplay uffer size: int(1e5) 
+    replay buffer size: int(1e5) 
     minibatch size: 64       
     discount factor: 0.99      
     tau = 1e-3  (for soft update of target parameters)
