@@ -8,12 +8,17 @@
 The neural network has three fully connected layers:
 
   1st layer:
+  
     - input: 37 (i.e the dimension of the state space) 
     - output: 64
-  2nd layer: 
+  
+  2nd layer:
+  
     - input: 64 
     - output 64
+  
   3rd layer: 
+  
     - input: 64 
     - output: 4 (i.e. the dimension of the action space)
 
