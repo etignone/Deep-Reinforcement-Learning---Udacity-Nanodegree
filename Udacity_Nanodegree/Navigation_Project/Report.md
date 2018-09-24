@@ -68,7 +68,7 @@ The average scores, during the training phase, were:
 
 ### Ideas for Future Work
 
-Having said that further hyperparameters optimizations could lead to better performances, possible extension and improvement of the vanilla Deep Q Network, can be:
+Further hyperparameters optimizations could lead to better performances. Moreover, possible extensions and improvements of the vanilla Deep Q Network are:
 
 - [Double Deep Q Networks](https://arxiv.org/pdf/1509.06461.pdf)
 - [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)
