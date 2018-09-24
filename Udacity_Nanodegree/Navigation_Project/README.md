@@ -93,7 +93,7 @@ Place the environment in the same folder where you put the notebooks and the pyt
 
 ## Instructions
 
-Open a jupyter notebook:
+Enter the cloned repository and open a jupyter notebook:
 
     jupyter notebook
     
