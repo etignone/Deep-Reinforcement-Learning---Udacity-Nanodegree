@@ -45,26 +45,26 @@ The model was trained over 2000 episodes. The trand of the average scores is ill
 
 The average scores, during the training phase, were:
 
-  Episode 100	Average Score: 0.80
-  Episode 200	Average Score: 4.49
-  Episode 300	Average Score: 7.28
-  Episode 400	Average Score: 11.28
-  Episode 500	Average Score: 12.90
-  Episode 600	Average Score: 13.95
-  Episode 700	Average Score: 14.09
-  Episode 800	Average Score: 14.52
-  Episode 900	Average Score: 14.59
-  Episode 1000	Average Score: 15.62
-  Episode 1100	Average Score: 15.59
-  Episode 1200	Average Score: 15.88
-  Episode 1300	Average Score: 15.74
-  Episode 1400	Average Score: 16.49
-  Episode 1500	Average Score: 15.54
-  Episode 1600	Average Score: 15.40
-  Episode 1700	Average Score: 16.30
-  Episode 1800	Average Score: 15.65
-  Episode 1900	Average Score: 15.87
-  Episode 2000	Average Score: 15.69
+    Episode 100	Average Score: 0.80
+    Episode 200	Average Score: 4.49
+    Episode 300	Average Score: 7.28
+    Episode 400	Average Score: 11.28
+    Episode 500	Average Score: 12.90
+    Episode 600	Average Score: 13.95
+    Episode 700	Average Score: 14.09
+    Episode 800	Average Score: 14.52
+    Episode 900	Average Score: 14.59
+    Episode 1000	Average Score: 15.62
+    Episode 1100	Average Score: 15.59
+    Episode 1200	Average Score: 15.88
+    Episode 1300	Average Score: 15.74
+    Episode 1400	Average Score: 16.49
+    Episode 1500	Average Score: 15.54
+    Episode 1600	Average Score: 15.40
+    Episode 1700	Average Score: 16.30
+    Episode 1800	Average Score: 15.65
+    Episode 1900	Average Score: 15.87
+    Episode 2000	Average Score: 15.69
 
 ### Ideas for Future Work
 
