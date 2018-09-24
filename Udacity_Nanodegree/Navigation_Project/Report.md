@@ -24,18 +24,18 @@ The neural network has three fully connected layers. The dimension of the layers
 
 **2. Learning phase** 
 
-  breplay uffer size: int(1e5) 
-  minibatch size: 64       
-  discount factor: 0.99      
-  tau = 1e-3  (for soft update of target parameters)
-  learning rate = 5e-4               
-  The network is updated after every 4 episodes
+    breplay uffer size: int(1e5) 
+    minibatch size: 64       
+    discount factor: 0.99      
+    tau = 1e-3  (for soft update of target parameters)
+    learning rate = 5e-4               
+    The network is updated after every 4 episodes
 
 **3. Agent greediness**
 
-  Starting epsilion: 1.0
-  Ending epsilion: 0.01
-  Epsilon decay rate: 0.999
+    Starting epsilion: 1.0
+    Ending epsilion: 0.01
+    Epsilon decay rate: 0.999
 
 ### Performance
 
