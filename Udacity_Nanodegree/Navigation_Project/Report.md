@@ -5,11 +5,11 @@
 
 **1. Network**
 
-The neural network has three fully connected layers:
+The neural network has three fully connected layers. The dimension of the layers are:
 
   1st layer:
   
-    - input: 37 (i.e the dimension of the state space) 
+    - input: 37 (i.e. the dimension of the state space) 
     - output: 64
   
   2nd layer:
