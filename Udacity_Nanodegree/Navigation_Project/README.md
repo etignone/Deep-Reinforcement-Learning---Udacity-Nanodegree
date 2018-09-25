@@ -20,7 +20,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 <center>
     
-![ALt text](images/banana.gif)
+![ALt text](./images/banana.gif)
 
 </center>
 
