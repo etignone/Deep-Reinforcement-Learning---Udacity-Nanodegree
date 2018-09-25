@@ -20,7 +20,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 <center>
     
-![ALt text](./images/banana.gif)
+![ALt text](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
 
 </center>
 
