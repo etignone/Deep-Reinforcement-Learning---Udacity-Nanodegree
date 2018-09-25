@@ -41,7 +41,7 @@ The neural network has three fully connected layers. The dimension of the layers
 
 The model was trained over 2000 episodes. The trand of the average scores is illustrated in the plot below:
 
-![alt text](images/avg_scores_plot.png)
+![alt text](images/avg_scores.png)
 
 ### Ideas for Future Work
 
