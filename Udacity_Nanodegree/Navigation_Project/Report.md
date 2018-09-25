@@ -25,7 +25,7 @@ The neural network has three fully connected layers. The dimension of the layers
 **2. Learning phase** 
 
     replay buffer size: int(1e5) 
-    minibatch size: 64       
+    minibatch size: 32       
     discount factor: 0.99      
     tau = 1e-3  (for soft update of target parameters)
     learning rate = 5e-4               
@@ -35,7 +35,7 @@ The neural network has three fully connected layers. The dimension of the layers
 
     Starting epsilion: 1.0
     Ending epsilion: 0.01
-    Epsilon decay rate: 0.999
+    Epsilon decay rate: 0.001
 
 ### Performance
 
