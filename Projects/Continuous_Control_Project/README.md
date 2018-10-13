@@ -10,6 +10,6 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 <center>
     
-![ALt text](https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif)
+![ALt text](images/reacher.gif)
 
 </center>
