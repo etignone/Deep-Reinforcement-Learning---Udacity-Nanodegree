@@ -90,3 +90,7 @@ Enter the cloned repository and open a jupyter notebook:
     jupyter notebook
     
 Before running code in the notebook, change the kernel to match the navigation environment by using the drop-down Kernel menu.
+
+### Resources
+
+[Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
