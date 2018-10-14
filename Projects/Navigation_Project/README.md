@@ -98,3 +98,7 @@ Enter the cloned repository and open a jupyter notebook:
     jupyter notebook
     
 Before running code in the notebook, change the kernel to match the navigation environment by using the drop-down Kernel menu.
+
+### Resources
+
+[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
