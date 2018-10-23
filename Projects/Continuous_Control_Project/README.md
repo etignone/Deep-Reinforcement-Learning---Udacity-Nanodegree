@@ -14,7 +14,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 </center>
 
-The environment contains 20 identical agents, each with its own copy of the environment. This version is useful for algorithms like [PPO](https://arxiv.org/abs/1707.06347), [A3C](https://arxiv.org/abs/1602.01783), and [D4PG](https://arxiv.org/abs/1804.08617) that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
+The environment contains 20 identical agents, each with its own copy of the environment. It is useful for algorithms like [PPO](https://arxiv.org/abs/1707.06347), [A3C](https://arxiv.org/abs/1602.01783), and [D4PG](https://arxiv.org/abs/1804.08617) that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
 
 The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents. In particular, your agents must get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically,
 
