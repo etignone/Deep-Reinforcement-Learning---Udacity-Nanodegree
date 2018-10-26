@@ -1,3 +1,5 @@
+#slighly modified code from https://github.com/udacity/deep-reinforcement-learning (ddpg-prendulum simulation)
+
 import numpy as np
 import random
 import copy
