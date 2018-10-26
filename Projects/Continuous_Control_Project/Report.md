@@ -5,24 +5,47 @@
 
 **1. Actor network**
 
-The neural network has three fully connected layers. The dimension of the layers are:
+The neural network has three fully connected layers with uniform weight initialization. The dimension of the layers are:
 
   1st layer:
   
-    - input: 37 (i.e. the dimension of the state space) 
-    - output: 64
+    - input: 33 (i.e. the dimension of the state space) 
+    - activation function: rectified linear unit
+    - output: 400
   
   2nd layer:
   
-    - input: 64 
-    - output 64
+    - input: 400 
+    - activation function: rectified linear unit
+    - output 300
   
   3rd layer: 
   
-    - input: 64 
+    - input: 300
+    - activation function: hyperbolic tangent
     - output: 4 (i.e. the dimension of the action space)
     
 **1. Critic network**
+
+The neural network has three fully connected layers with uniform weight initialization. The dimension of the layers are:
+
+  1st layer:
+  
+    - input: 33 (i.e. the dimension of the state space) 
+    - activation function: rectified linear unit
+    - output: 400
+  
+  2nd layer:
+  
+    - input: 404 (its a concatenation of the output of the 1st layer and the output of the Actor network) 
+    - activation function: rectified linear unit
+    - output 300
+  
+  3rd layer: 
+  
+    - input: 300
+    - activation function: hyperbolic tangent
+    - output: 1 (Q-value)
 
 **2. Learning phase** 
 
