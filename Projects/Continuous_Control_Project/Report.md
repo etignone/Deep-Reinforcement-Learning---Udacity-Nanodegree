@@ -22,7 +22,7 @@ The neural network has three fully connected layers with uniform weight initiali
   3rd layer: 
   
     - input: 300
-    - activation function: hyperbolic tangent
+    - activation function: none
     - output: 4 (i.e. the dimension of the action space) 
     
 **1. Critic network**
