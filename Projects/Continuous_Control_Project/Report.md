@@ -60,7 +60,7 @@ The neural network has three fully connected layers with uniform weight initiali
 
 ### Performance
 
-The trend of the average scores over all 29 agents is illustrated in the plot below:
+The trend of the average scores over all 20 agents is illustrated in the plot below:
 
 ![alt text](images/avg_scores.png)
 
