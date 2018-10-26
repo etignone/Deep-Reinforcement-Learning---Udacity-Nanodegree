@@ -60,7 +60,7 @@ The neural network has three fully connected layers with uniform weight initiali
 
 ### Performance
 
-The model was trained over 2000 episodes. The trand of the average scores is illustrated in the plot below:
+The trend of the average scores over all 29 agents is illustrated in the plot below:
 
 ![alt text](images/avg_scores.png)
 
