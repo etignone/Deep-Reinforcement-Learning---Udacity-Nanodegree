@@ -1,3 +1,5 @@
+#code from https://github.com/udacity/deep-reinforcement-learning (ddpg-prendulum simulation)
+
 import numpy as np
 import torch
 import torch.nn as nn
