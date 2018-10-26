@@ -3,7 +3,7 @@
 
 ### Hyperparameters
 
-**1. Network**
+**1. Actor network**
 
 The neural network has three fully connected layers. The dimension of the layers are:
 
@@ -21,21 +21,19 @@ The neural network has three fully connected layers. The dimension of the layers
   
     - input: 64 
     - output: 4 (i.e. the dimension of the action space)
+    
+**1. Critic network**
 
 **2. Learning phase** 
 
-    replay buffer size: int(1e5) 
-    minibatch size: 32       
+    replay buffer size: int(1e6) 
+    minibatch size: 256      
     discount factor: 0.99      
     tau = 1e-3  (for soft update of target parameters)
-    learning rate = 5e-4               
-    The network is updated after every 4 episodes
-
-**3. Agent greediness**
-
-    Starting epsilion: 1.0
-    Ending epsilion: 0.01
-    Epsilon decay rate: 0.001
+    learning rate of the Actor = 1e-4
+    learning rate of the Critic = 3e-4
+    L2 weights decay = 1e-4
+    The network is updated ten times in a row after every 20 timesteps episodes
 
 ### Performance
 
