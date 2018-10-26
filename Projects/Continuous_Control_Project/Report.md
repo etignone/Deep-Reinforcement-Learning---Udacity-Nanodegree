@@ -5,7 +5,7 @@
 
 **1. Actor network**
 
-The neural network has three fully connected layers with uniform weight initialization. The dimension of the layers are:
+The neural network has three fully connected layers with uniform weight initialization. As an input it takes a state and outputs the best possible possible action given that the agent is in that very specific state (a.k.a. deterministic opitmal policy). The dimension of the layers are:
 
   1st layer:
   
@@ -23,11 +23,11 @@ The neural network has three fully connected layers with uniform weight initiali
   
     - input: 300
     - activation function: hyperbolic tangent
-    - output: 4 (i.e. the dimension of the action space)
+    - output: 4 (i.e. the dimension of the action space) 
     
 **1. Critic network**
 
-The neural network has three fully connected layers with uniform weight initialization. The dimension of the layers are:
+The neural network has three fully connected layers with uniform weight initialization. As an input it takes a state and outputs the optimal action value function by using the Actor best belevied action. The dimension of the layers are:
 
   1st layer:
   
@@ -37,7 +37,7 @@ The neural network has three fully connected layers with uniform weight initiali
   
   2nd layer:
   
-    - input: 404 (its a concatenation of the output of the 1st layer and the output of the Actor network) 
+    - input: 404 (its a concatenation of the output of the 1st layer and the Actor best belevied action) 
     - activation function: rectified linear unit
     - output 300
   
@@ -45,7 +45,7 @@ The neural network has three fully connected layers with uniform weight initiali
   
     - input: 300
     - activation function: hyperbolic tangent
-    - output: 1 (Q-value)
+    - output: 1 
 
 **2. Learning phase** 
 
