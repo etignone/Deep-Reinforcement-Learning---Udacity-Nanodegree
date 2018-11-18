@@ -50,17 +50,16 @@ The neural network has four fully connected layers with uniform weight initializ
 **2. Learning phase** 
 
     replay buffer size: int(1e6) 
-    minibatch size: 256      
+    minibatch size: 1024     
     discount factor: 0.99      
     tau = 1e-3  (for soft update of target parameters)
     learning rate of the Actor = 1e-4
-    learning rate of the Critic = 3e-4
-    L2 weights decay = 1e-4
-    The network is updated ten times in a row after every 20 timesteps episodes
+    learning rate of the Critic = 1e-3
+    L2 weights decay = 0.0
 
 ### Performance
 
-The trend of the average scores over all 20 agents is illustrated in the plot below:
+The trend of the episodes scores (defined as the maximal score over both agents) is illustrated in the plot below, along with the trend of the average score over a interval of 100 consecutive episodes (if enough episodes have been gathered) or over all episodes otherwise.
 
 ![alt text](images/avg_scores.png)
 
