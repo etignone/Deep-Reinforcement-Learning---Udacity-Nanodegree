@@ -3,11 +3,11 @@ import random
 import copy
 from collections import namedtuple, deque
 
-from model import Actor, Critic
-
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
+
+from model import *
 
 BUFFER_SIZE = int(1e6)  # replay buffer size
 BATCH_SIZE = 1024        # minibatch size
