@@ -59,6 +59,6 @@ The neural network has four fully connected layers with uniform weight initializ
 
 ### Performance
 
-The trend of the episodes scores (defined as the maximum of the scores of the two agents) is illustrated in the plot below along with the trend of the average score over an interval of 100 consecutive episodes (if enough episodes have been gathered) or over all episodes otherwise.
+The trend of the episode scores (defined as the maximum of the scores of the two agents) is illustrated in the plot below along with the trend of the average score over an interval of 100 consecutive episodes (if enough episodes have been gathered) or over all episodes otherwise.
 
 ![alt text](images/avg_scores.png)
