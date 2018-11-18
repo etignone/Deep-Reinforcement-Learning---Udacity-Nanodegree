@@ -62,9 +62,3 @@ The neural network has four fully connected layers with uniform weight initializ
 The trend of the episodes scores (defined as the maximum of the scores of the two agents) is illustrated in the plot below along with the trend of the average score over an interval of 100 consecutive episodes (if enough episodes have been gathered) or over all episodes otherwise.
 
 ![alt text](images/avg_scores.png)
-
-### Ideas for Future Work
-
-Further hyperparameters optimizations could lead to better performances. Moreover, possible alternative algorithm could be 
-[PPO](https://arxiv.org/abs/1707.06347), [A3C](https://arxiv.org/abs/1602.01783), and [D4PG](https://arxiv.org/abs/1804.08617) 
-that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.
