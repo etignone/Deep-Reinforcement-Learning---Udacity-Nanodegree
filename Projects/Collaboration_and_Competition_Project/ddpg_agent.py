@@ -46,7 +46,7 @@ class Agent():
         self.critic_optimizer = optim.Adam(self.critic_local.parameters(), lr=LR_CRITIC, weight_decay=WEIGHT_DECAY)
 
         # Noise process
-        self.noise = [OUNoise(action_size, random_seed) for i in range(self.replicates)]
+        self.noise = [OUNoise(action_size, random_seed) for replicate in range(self.replicates)]
 
         # Replay memory
         self.memory = ReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, random_seed)
