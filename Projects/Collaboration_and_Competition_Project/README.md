@@ -95,7 +95,7 @@ Enter the cloned repository and start the jupyter notebook server with the comma
 
     jupyter notebook
     
-Once the web page is loaded, open the jupyter notebook Tennis.ipynb. Before running code in the notebook, change the kernel to match the tennis environment by using the drop-down Kernel menu.
+Once the web page is loaded, open the jupyter notebook *Tennis.ipynb*. Before running code in the notebook, change the kernel to match the tennis environment by using the drop-down Kernel menu.
 
 ### Resources
 
