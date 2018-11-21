@@ -91,11 +91,11 @@ Place the environment in the same folder where you put the notebooks and the pyt
 
 ## Instructions
 
-Enter the cloned repository and open a jupyter notebook:
+Enter the cloned repository and start the jupyter notebook server with the command line:
 
     jupyter notebook
     
-Before running code in the notebook, change the kernel to match the navigation environment by using the drop-down Kernel menu.
+Then open the jupyter notebook Tennis.ipynb. Before running code in the notebook, change the kernel to match the tennis environment by using the drop-down Kernel menu.
 
 ### Resources
 
